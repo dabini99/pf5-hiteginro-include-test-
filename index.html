@@ -23,6 +23,8 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
+            $("#top").load("header.html");  // 원하는 파일 경로를 삽입하면 된다
+            $("footer").load("footer.html");  
            // 목록항목의 p와 a를 둘러싸시오
            $("#product ul.list li").each(function(){// each()는 앞요소갯수만큼 순차적으로 실행하시오; 
                 $(this).children("p,a").wrapAll("<div class='wtext'></div>"); 
