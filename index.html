@@ -267,7 +267,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script type="text/javascript">
-
+        // 타이틀 영역 로드
         $(document).ready(function(){
             function titleani(){
                 $('.titleani').slick({
@@ -312,6 +312,7 @@
             $("#subtitle").load("subtitle.html",function(){
                 titleani();
             });
+            // 메인 영역 로드
             function snsSlide(){
                 $('.snsSlide').slick({
                     infinite: true,
